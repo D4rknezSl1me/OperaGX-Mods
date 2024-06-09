@@ -1,0 +1,92 @@
+{
+   "description": "my personal mod",
+   "developer": {
+      "name": "D4rknezSl1me"
+   },
+   "icons": {
+      "512": "512.png"
+   },
+   "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAosniEIEevgOf8OkLdrCynBgOgTEruvtAJDuuYjpgnBpxPvRTia15ZXYbRWKfOumxcy/U7R1QXXn5et9raDV31ZGrDxhzYFMgCXDP0k5zI91VGjYKav786q9hfsTI7/e8upDJJHFfsGx7Jh3BHG91fIhhLsyVLWPpnKLx/a5NddA6JwD+gpPCZkOwnvI0l1Tv4x7oO1De4FPxOqqzidd/ftnKiloekbHwccGyl6s9cF8OK04g/m0C9gEs9dSFRPUzTgCu+jcJR+xjZEf7UUL8rpRij+tNjUw8KiRcQcKmsmpOxki/XA9TlLshJgcLJbtHJRBUfe0X/N0ofx/XVxBRkqL2rxDEsa5glzrMT8ushGQXbtF/Y5GWyLbU6gPPHgSssBe/dD+j933wb7waK4CkRMIyymPs+y5RIYel4cwkE6rdbmPJj8FLbWrYt6zHi31oNeLkCwJWlU2rFg25gbtyiU7Vn+a5wYyaRJSjZAXb2ewOTiWN/g4mKxCIeJaGN0IMzKVW2J0HZ4UpfoBl4mvXDOw7zUVy6z1uVdvGXHowblIxCMFiRib5rp0fv7jvFbzUd3u7GaAu7OLvhIgAnPMLVmgiej1epDnKMI2NwHXgtoZ7iddBq2KCPERzQfbiOMT6ycc/naDt/OGbV29FNG/l3tULHvzEg9pIpHMv5Tivm50CAwEAAQ==",
+   "manifest_version": 3,
+   "mod": {
+      "flavor": {
+         "features": [  ],
+         "hash": "74be16979710d4c4e7c6647856088456",
+         "parent_hash": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "license": "license.txt",
+      "payload": {
+         "background_music": [ "music/music.mp3"],
+         "browser_sounds": {
+            "CLICK": [ "sound/click.mp3" ],
+            "HOVER": [ "sound/hover.mp3" ],
+            "HOVER_UP": [ "sound/hover.mp3" ],
+            "TAB_CLOSE": [ "sound/tabclose.mp3" ],
+            "TAB_INSERT": [ "sound/tabopen.mp3" ],
+            "FEATURE_SWITCH_OFF": [ "sound/feature_switch_off.mp3" ],
+            "FEATURE_SWITCH_ON": [ "sound/feature_switch_on.mp3" ],
+            "IMPORTANT_CLICK": [ "sound/important_click.mp3" ],
+            "LEVEL_UPGRADE": [ "sound/level_upgrade.mp3" ],
+            "LIMITER_OFF": [ "sound/limiter_off.mp3" ],
+            "LIMITER_ON": [ "sound/limiter_on.mp3" ],
+            "SWITCH_TOGGLE": [ "sound/switch.mp3" ],
+            "TAB_SLASH": [ "sound/tab_slash.mp3" ]
+         },
+         "keyboard_sounds": {
+            "TYPING_BACKSPACE": [ "keyboard/keyboard4.mp3" ],
+            "TYPING_ENTER": [ "keyboard/keyboard2.mp3" ],
+            "TYPING_LETTER": [ "keyboard/keyboard1.mp3" ],
+            "TYPING_SPACE": [ "keyboard/keyboard3.mp3" ]
+         },
+         "page_styles": [ {
+            "css": [ "webmodding/opera.css" ],
+            "matches": [ "https://*.opera.com/*" ]
+         } ],
+         "shaders": {
+         },
+         "theme": {
+            "dark": {
+               "gx_accent": {
+                  "h": 93,
+                  "l": 43,
+                  "s": 45
+               },
+               "gx_secondary_base": {
+                  "h": 269,
+                  "l": 46,
+                  "s": 32
+               }
+            },
+            "light": {
+               "gx_accent": {
+                  "h": 93,
+                  "l": 43,
+                  "s": 45
+               },
+               "gx_secondary_base": {
+                  "h": 269,
+                  "l": 46,
+                  "s": 32
+               }
+            }
+         },
+         "wallpaper": {
+            "dark": {
+               "image": "wallpaper/2.jpg",
+               "text_color": "#FFFFFF",
+               "text_shadow": "#757575"
+            },
+            "light": {
+               "first_frame": "wallpaper/first_frame.jpeg",
+               "image": "wallpaper/2.jpg",
+               "text_color": "#FFFFFF",
+               "text_shadow": "#0B000E"
+            }
+         }
+      },
+      "schema_version": 1
+   },
+   "name": "STOLEN MOD LMAO",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.1"
+}
