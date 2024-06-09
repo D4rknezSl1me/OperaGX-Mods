@@ -39,8 +39,8 @@
             "TYPING_SPACE": [ "keyboard/keyboard3.mp3" ]
          },
          "page_styles": [ {
-            "css": [ "webmodding/opera.css" ],
-            "matches": [ "https://*.opera.com/*" ]
+            "css": [ "css/main.theme.css", "css/changecolors.css" ],
+            "matches": [ "https://*.discord.com/*" ]
          } ],
          "shaders": {
          },
